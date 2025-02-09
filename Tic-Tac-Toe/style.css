@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:skyblue;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+}
+.container-2{
+    width: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+}
+.box{
+    height: 18vh;
+    width: 18vh;
+    border-radius: 5px;
+    /* border: 0px; */
+    font-size: 4rem;
+    background-color: white;
+    color: black;
+    border: none;
+
+}
